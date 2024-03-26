@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to top, #fff, #3e2723), url('background.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3e2723;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+header nav {
+    background-color: #5d403a;
+    padding: 10px 0;
+    text-align: center;
+    color: #ccc;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    color: #fff;
+}
+
+h3 {
+    margin-top: 2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.chocolate-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.chocolate-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.chocolate-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #555;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+    width: 50%;
+    background-color: #b52929;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #961b1b;
+}
+
+address {
+    margin-top: 1em;
+    font-style: normal;
+}
